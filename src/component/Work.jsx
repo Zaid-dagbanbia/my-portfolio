@@ -1,6 +1,7 @@
 import React from 'react'
 import Working from '../assets/projects/workImg.jpeg'
 import realEstate from '../assets/projects/realestate.jpg'
+import orderFood from '/order_food.png'
 
 
 const Work = () => {
@@ -14,14 +15,14 @@ const Work = () => {
             {/* container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'> 
             {/* Grid Item */}
-                <div style={{backgroundImage:`url(${Working})`}}
+                <div style={{backgroundImage:`url(${orderFood})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100' >
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                    <div className='opacity-0 group-hover:opacity-100 w-full' >
+                        <span className='text-xl font-bold text-white tracking-wide text-center block'>
 
-                            React JS Application
+                             CraveBasket: Order, Eat, Repeat.
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://food-delivery-app-frontend-ecx8.onrender.com/" target= "_blank" >
