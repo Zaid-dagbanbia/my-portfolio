@@ -1,7 +1,8 @@
-import React from 'react'
+
 import Working from '../assets/projects/workImg.jpeg'
 import realEstate from '../assets/projects/realestate.jpg'
 import orderFood from '/order_food.png'
+import mobilisation from '/mobilisation.png'
 
 
 const Work = () => {
@@ -34,14 +35,14 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage:`url(${realEstate})`}}
+                <div style={{backgroundImage:`url(${mobilisation})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                    <div className='opacity-0 group-hover:opacity-100 w-full'>
+                        <span className='text-xl font-bold text-white tracking-wide text-center block'>
 
-                            React JS Application
+                        Mobiliation: Journey Packing Assistant.
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://mobilisation.onrender.com">
@@ -61,7 +62,7 @@ const Work = () => {
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
 
-                            React JS Application
+                            Administrative Panel
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://food-del-admin-757g.onrender.com/" target='_blank'>
