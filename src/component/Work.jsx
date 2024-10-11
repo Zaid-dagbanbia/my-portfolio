@@ -1,6 +1,5 @@
 
 import Working from '../assets/projects/workImg.jpeg'
-import realEstate from '../assets/projects/realestate.jpg'
 import orderFood from '/order_food.png'
 import mobilisation from '/mobilisation.png'
 
